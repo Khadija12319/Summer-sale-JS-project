@@ -1,14 +1,259 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Summer Sale</title>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <style>
+        .font{
+            font-family: "Work Sans", sans-serif;
+        }
+        li{
+            color: #111;
+            font-size: 24px; 
+            font-weight: 500;
+            line-height: 48px;
+        }
+    </style>
 </head>
-<body>
-   
+<body class="font">
+   <section class="banner bg-[#F9F6E2]">
+    <div class="container mx-auto flex justify-around">
+        <div class="min-h-full flex flex-col justify-center">
+            <p class="text-center text-[#111] text-[32px] font-medium mb-[45px]">---SALE FEVER---</p>
+            <h2 class="text-justify text-[#111] font-bold text-6xl">Purchase TK 200 or<br> above & get <span class="text-[#E527B2]">20% off</span></h2>
+            <div class="mt-[67px] flex gap-4 justify-center">
+            <p class="text-[#111] text-2xl font-medium my-auto">Use Promo Code</p>
+            <button class="bg-[#E527B2] text-white text-2xl font-semibold px-[26px] py-[14px] rounded-lg">SELL200</button>
+            </div>
+        </div>
+        <div class="my-[82px]">
+            <img src="images/Summer 1.png" alt="">
+        </div>
+    </div>
+   </section>
+
+   <main class="bg-[#F8F8F8]">
+    <section class="container mx-auto flex pt-[120px] pb-[200px]">
+        <div class="flex-1">
+            <!--Kitchenware section-->
+            <div class="">
+                <h1 class="text-[#111] text-[40px] font-semibold mb-[32px]">Kitchenware</h1>
+                <div class="grid grid-flow-row lg:grid-flow-col gap-6">
+                    <!--card 1-->
+                    <div class="card bg-base-100 shadow-xl p-[20px] w-[342px]">
+                        <figure class="px-10 pt-10 bg-[#1111110D]">
+                          <img src="images/prod1.png" alt="product1" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                          <h2 class="card-title text-[#111] text-xl font-semibold">K. Accessorie</h2>
+                          <p>
+                            <i class="fa text-2xl fa-solid fa-star text-orange-300"></i>
+                            <i class="fa text-2xl fa-solid fa-star text-orange-300"></i>
+                            <i class="fa text-2xl fa-solid fa-star text-orange-300"></i>
+                            <i class="fa text-2xl fa-star-o text-orange-300"></i>
+                            <i class="fa text-2xl fa-star-o text-orange-300"></i>
+                          </p>
+                          <p class="text-[#11111180] text-xl font-normal"><span>39.00</span> $</p>
+                        </div>
+                      </div>
+                    <!--card 2-->
+                    <div class="card bg-base-100 shadow-xl p-[20px] w-[342px]">
+                        <figure class="px-10 pt-10 bg-[#1111110D]">
+                          <img src="images/prod2.png" alt="product2" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                          <h2 class="card-title text-[#111] text-xl font-semibold">K. Accessorie</h2>
+                          <p>
+                            <i class="fa fa-star-o text-orange-300 text-2xl"></i>
+                            <i class="fa fa-star-o text-orange-300 text-2xl"></i>
+                            <i class="fa fa-star-o text-orange-300 text-2xl"></i>
+                            <i class="fa fa-star-o text-orange-300 text-2xl"></i>
+                            <i class="fa fa-star-o text-orange-300 text-2xl"></i>
+                          </p>
+                          <p class="text-[#11111180] text-xl font-normal"><span>25.00</span> $</p>
+                        </div>
+                      </div>
+
+                      <!--card 3-->
+                      <div class="card bg-base-100 shadow-xl p-[20px] w-[342px]">
+                        <figure class="px-10 pt-10 bg-[#1111110D]">
+                          <img src="images/prod3.png" alt="product3" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                          <h2 class="card-title text-[#111] text-xl font-semibold">Home Cooker</h2>
+                          <p>
+                            <i class="fa text-2xl fa-solid fa-star text-orange-300"></i>
+                            <i class="fa text-2xl fa-solid fa-star text-orange-300"></i>
+                            <i class="fa text-2xl fa-solid fa-star text-orange-300"></i>
+                            <i class="fa text-2xl fa-solid fa-star text-orange-300"></i>
+                            <i class="fa text-2xl fa-star-o text-orange-300"></i>
+                          </p>
+                          <p class="text-[#11111180] text-xl font-normal"><span>49.00</span> $</p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+
+
+            <!--Sportsware Section-->
+            <div class="">
+                <h1 class="text-[#111] text-[40px] font-semibold mb-[32px] mt-[56px]">Sportswear</h1>
+                <div class="grid grid-flow-row lg:grid-flow-col gap-6">
+                    <!--card 1-->
+                    <div class="card bg-base-100 shadow-xl p-[20px] w-[342px]">
+                        <figure class="px-10 pt-10 bg-[#1111110D]">
+                          <img src="images/prod4.png" alt="product1" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                          <h2 class="card-title text-[#111] text-xl font-semibold">Sports Back Cap</h2>
+                          <p>
+                            <i class="fa text-2xl fa-solid fa-star text-orange-300"></i>
+                            <i class="fa text-2xl fa-solid fa-star text-orange-300"></i>
+                            <i class="fa text-2xl fa-star-o text-orange-300"></i>
+                            <i class="fa text-2xl fa-star-o text-orange-300"></i>
+                            <i class="fa text-2xl fa-star-o text-orange-300"></i>
+                          </p>
+                          <p class="text-[#11111180] text-xl font-normal"><span>49.00</span> $</p>
+                        </div>
+                      </div>
+                    <!--card 2-->
+                    <div class="card bg-base-100 shadow-xl p-[20px] w-[342px]">
+                        <figure class="px-10 pt-10 bg-[#1111110D]">
+                          <img src="images/prod5.png" alt="product2" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                          <h2 class="card-title text-[#111] text-xl font-semibold">Full Jersey Set</h2>
+                          <p>
+                            <i class="fa text-2xl fa-solid fa-star text-orange-300"></i>
+                            <i class="fa text-2xl fa-solid fa-star text-orange-300"></i>
+                            <i class="fa text-2xl fa-solid fa-star text-orange-300"></i>
+                            <i class="fa text-2xl fa-solid fa-star text-orange-300"></i>
+                            <i class="fa fa-star-o text-orange-300 text-2xl"></i>
+                          </p>
+                          <p class="text-[#11111180] text-xl font-normal"><span>69.00</span> $</p>
+                        </div>
+                      </div>
+
+                      <!--card 3-->
+                      <div class="card bg-base-100 shadow-xl p-[20px] w-[342px]">
+                        <figure class="px-10 pt-10 bg-[#1111110D]">
+                          <img src="images/prod6.png" alt="product3" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                          <h2 class="card-title text-[#111] text-xl font-semibold">Sports cates</h2>
+                          <p>
+                            <i class="fa text-2xl fa-solid fa-star text-orange-300"></i>
+                            <i class="fa text-2xl fa-solid fa-star text-orange-300"></i>
+                            <i class="fa text-2xl fa-solid fa-star text-orange-300"></i>
+                            <i class="fa text-2xl fa-star-o text-orange-300"></i>
+                            <i class="fa text-2xl fa-star-o text-orange-300"></i>
+                          </p>
+                          <p class="text-[#11111180] text-xl font-normal"><span>159.00</span> $</p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+
+
+            <!--Furniture Section-->
+
+            <div class="">
+                <h1 class="text-[#111] text-[40px] font-semibold mb-[32px] mt-[56px]">Furniture</h1>
+                <div class="grid grid-flow-row lg:grid-flow-col gap-6">
+                    <!--card 1-->
+                    <div class="card bg-base-100 shadow-xl p-[20px] w-[342px]">
+                        <figure class="px-10 pt-10 bg-[#1111110D]">
+                          <img src="images/prod7.png" alt="product1" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                          <h2 class="card-title text-[#111] text-xl font-semibold">Single Relax Chair</h2>
+                          <p>
+                            <i class="fa text-2xl fa-solid fa-star text-orange-300"></i>
+                            <i class="fa text-2xl fa-solid fa-star text-orange-300"></i>
+                            <i class="fa text-2xl fa-solid fa-star text-orange-300"></i>
+                            <i class="fa text-2xl fa-solid fa-star text-orange-300"></i>
+                            <i class="fa text-2xl fa-star-o text-orange-300"></i>
+                          </p>
+                          <p class="text-[#11111180] text-xl font-normal"><span>185.00</span> $</p>
+                        </div>
+                      </div>
+                    <!--card 2-->
+                    <div class="card bg-base-100 shadow-xl p-[20px] w-[342px]">
+                        <figure class="px-10 pt-10 bg-[#1111110D]">
+                          <img src="images/prod8.png" alt="product2" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                          <h2 class="card-title text-[#111] text-xl font-semibold">Children play</h2>
+                          <p>
+                            <i class="fa fa-star text-orange-300 text-2xl"></i>
+                            <i class="fa fa-star text-orange-300 text-2xl"></i>
+                            <i class="fa fa-star text-orange-300 text-2xl"></i>
+                            <i class="fa fa-star text-orange-300 text-2xl"></i>
+                            <i class="fa fa-star text-orange-300 text-2xl"></i>
+                          </p>
+                          <p class="text-[#11111180] text-xl font-normal"><span>299.00</span> $</p>
+                        </div>
+                      </div>
+
+                      <!--card 3-->
+                      <div class="card bg-base-100 shadow-xl p-[20px] w-[342px]">
+                        <figure class="px-10 pt-10 bg-[#1111110D]">
+                          <img src="images/prod9.png" alt="product3" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                          <h2 class="card-title text-[#111] text-xl font-semibold">Flexible Sofa</h2>
+                          <p>
+                            <i class="fa text-2xl fa-solid fa-star text-orange-300"></i>
+                            <i class="fa text-2xl fa-solid fa-star text-orange-300"></i>
+                            <i class="fa text-2xl fa-solid fa-star text-orange-300"></i>
+                            <i class="fa text-2xl fa-solid fa-star text-orange-300"></i>
+                            <i class="fa text-2xl fa-star text-orange-300"></i>
+                          </p>
+                          <p class="text-[#11111180] text-xl font-normal"><span>339.00</span> $</p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!--right section of claculation-->
+        <div class="space-y-6 w-[342px] pt-[90px]">
+            <!--cupon button-->
+            <div class="p-6 bg-[#FFF] rounded-xl">
+                <h2 class="text-[#111] text-2xl font-medium mb-4">Have coupon?</h2>
+                <button class="rounded-r-lg rounded-l-2xl bg-[#E527B2] text-white text-xl font-semibold">
+                    <input type="text" placeholder="Coupon code" class="text-black placeholder:text-[#11111166] py-4 pl-4 border-t-[1px] border-l-[1px] border-b-[1px] border-[#11111126] rounded-l-lg w-[194px]">
+                    <span class="w-[100px] px-4">Apply</span>
+                </button>
+            </div>
+            <div class="p-6 bg-[#FFF] rounded-xl">
+                <ol class="list-decimal">
+                    
+                </ol>
+                <hr>
+                <ul class="my-[24px]">
+                    <li>Total price: <span class="text-[#11111180]"></span></li>
+                    <li>Discount : <span class="text-[#11111180]"></span</li>
+                    <li>Total:<span class="text-[#11111180]"></span</li>
+                </ul>
+                <hr class="mb-[24px]">
+                <button class="text-[#FFF] text-xl font-semibold bg-[#E527B2] rounded-lg w-full py-[16px]">Make Purchase</button>
+            </div>
+        </div>
+
+    </section>
+   </main>
     
 
     <script src="scripts/commonFunctions.js"></script>
