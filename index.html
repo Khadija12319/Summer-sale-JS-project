@@ -32,7 +32,7 @@
             <h2 class="text-justify text-[#111] font-bold text-6xl">Purchase TK 200 or<br> above & get <span class="text-[#E527B2]">20% off</span></h2>
             <div class="mt-[67px] flex gap-4 justify-center">
             <p class="text-[#111] text-2xl font-medium my-auto">Use Promo Code</p>
-            <button class="bg-[#E527B2] text-white text-2xl font-semibold px-[26px] py-[14px] rounded-lg">SELL200</button>
+            <button class="bg-[#E527B2] text-white text-2xl font-semibold px-[26px] py-[14px] rounded-lg" id="coupon_code">SELL200</button>
             </div>
         </div>
         <div class="my-[82px]">
@@ -125,6 +125,7 @@
                           <p class="text-[#11111180] text-xl font-normal"><span>49.00</span> $</p>
                         </div>
                       </div>
+
                     <!--card 2-->
                     <div class="card bg-base-100 shadow-xl p-[20px] w-[342px]">
                         <figure class="px-10 pt-10 bg-[#1111110D]">
@@ -185,7 +186,8 @@
                           </p>
                           <p class="text-[#11111180] text-xl font-normal"><span>185.00</span> $</p>
                         </div>
-                      </div>
+                    </div>
+
                     <!--card 2-->
                     <div class="card bg-base-100 shadow-xl p-[20px] w-[342px]">
                         <figure class="px-10 pt-10 bg-[#1111110D]">
@@ -202,7 +204,7 @@
                           </p>
                           <p class="text-[#11111180] text-xl font-normal"><span>299.00</span> $</p>
                         </div>
-                      </div>
+                    </div>
 
                       <!--card 3-->
                       <div class="card bg-base-100 shadow-xl p-[20px] w-[342px]">
@@ -232,20 +234,20 @@
             <!--cupon button-->
             <div class="p-6 bg-[#FFF] rounded-xl">
                 <h2 class="text-[#111] text-2xl font-medium mb-4">Have coupon?</h2>
-                <button class="rounded-r-lg rounded-l-2xl bg-[#E527B2] text-white text-xl font-semibold">
-                    <input type="text" placeholder="Coupon code" class="text-black placeholder:text-[#11111166] py-4 pl-4 border-t-[1px] border-l-[1px] border-b-[1px] border-[#11111126] rounded-l-lg w-[194px]">
+                <button class="rounded-r-lg rounded-l-2xl bg-[#E527B2] text-white text-xl font-semibold" id="applyBtn">
+                    <input id="input_code" type="text" placeholder="Coupon code" class="text-black placeholder:text-[#11111166] py-4 pl-4 border-t-[1px] border-l-[1px] border-b-[1px] border-[#11111126] rounded-l-lg w-[194px]">
                     <span class="w-[100px] px-4">Apply</span>
                 </button>
             </div>
             <div class="p-6 bg-[#FFF] rounded-xl">
-                <ol class="list-decimal">
+                <ol class="list-decimal p-6" id="product">
                     
                 </ol>
                 <hr>
                 <ul class="my-[24px]">
-                    <li>Total price: <span class="text-[#11111180]"></span></li>
-                    <li>Discount : <span class="text-[#11111180]"></span</li>
-                    <li>Total:<span class="text-[#11111180]"></span</li>
+                    <li>Total price: <span class="text-[#11111180]" id="total-price"></span></li>
+                    <li>Discount : <span class="text-[#11111180]" id="discount"></span</li>
+                    <li>Total:<span class="text-[#11111180]" id="total"></span</li>
                 </ul>
                 <hr class="mb-[24px]">
                 <button class="text-[#FFF] text-xl font-semibold bg-[#E527B2] rounded-lg w-full py-[16px]">Make Purchase</button>
